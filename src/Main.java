@@ -27,8 +27,8 @@ public class Main {
         return scanner.next();
     }
 
-    public static void drawRectangle(int width, int hight, String character) {
-        for (int i = 0; i < hight; i++) {
+    public static void drawRectangle(int width, int height, String character) {
+        for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 System.out.print(character + " ");
             }
